@@ -34,3 +34,33 @@ N100_Project/data/processed/*.csv
 # Temporary backup/clone folders
 BS-internship-backup/
 BS-internship-check/
+
+# Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+
+# Environment/secrets
+.env
+**/.env
+
+# Generated databases
+*.db
+*.sqlite
+*.sqlite3
+
+# N100 raw internship datasets
+N100_Project/data/raw/
+
+# N100 generated processed CSVs
+N100_Project/data/processed/*.csv
+
+# Temporary backup/clone folders
+BS-internship-backup/
+BS-internship-check/
