@@ -1,0 +1,21 @@
+{
+  "archive_files": 15,
+  "fund_master_rows": 40,
+  "nav_rows": 46000,
+  "aum_rows": 90,
+  "sip_rows": 48,
+  "category_inflow_rows": 144,
+  "folio_rows": 21,
+  "performance_rows": 40,
+  "transactions_rows": 32778,
+  "benchmark_rows": 8050,
+  "performance_null_dates": 40,
+  "latest_aum_snapshot": "2025-12-31",
+  "aum_crore_latest_snapshot": 6274000.0,
+  "fy25_sip_inflow_crore": 289710.0,
+  "latest_folio_month": "2025-12-01",
+  "latest_folios_crore": 26.12,
+  "pbix_created": false,
+  "pdf_created": true,
+  "png_count": 4
+}

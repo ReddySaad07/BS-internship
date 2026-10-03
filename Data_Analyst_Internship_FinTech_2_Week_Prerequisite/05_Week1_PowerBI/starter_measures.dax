@@ -1,0 +1,19 @@
+-- Power BI starter measures
+Total Sales = SUM(sales_dashboard_data[sales_amount])
+
+Total Profit = SUM(sales_dashboard_data[profit])
+
+Orders = DISTINCTCOUNT(sales_dashboard_data[order_id])
+
+Customers = DISTINCTCOUNT(sales_dashboard_data[customer_id])
+
+Average Order Value = DIVIDE([Total Sales], [Orders])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Sales])
+
+-- Suggested visuals
+-- KPI Cards: Total Sales, Total Profit, Orders, Customers
+-- Line: Month vs Total Sales
+-- Bar: Product vs Total Sales
+-- Bar: State vs Total Sales
+-- Donut: City Tier vs Total Sales

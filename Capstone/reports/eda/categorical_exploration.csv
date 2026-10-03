@@ -1,0 +1,96 @@
+file,column,value,count
+01_fund_master.csv,fund_house,SBI Mutual Fund,5
+01_fund_master.csv,fund_house,HDFC Mutual Fund,5
+01_fund_master.csv,fund_house,ICICI Prudential MF,5
+01_fund_master.csv,fund_house,Nippon India MF,5
+01_fund_master.csv,fund_house,Kotak Mahindra MF,4
+01_fund_master.csv,fund_house,Axis Mutual Fund,4
+01_fund_master.csv,fund_house,Aditya Birla Sun Life MF,3
+01_fund_master.csv,fund_house,UTI Mutual Fund,3
+01_fund_master.csv,fund_house,Mirae Asset MF,3
+01_fund_master.csv,fund_house,DSP Mutual Fund,3
+01_fund_master.csv,category,Equity,34
+01_fund_master.csv,category,Debt,6
+01_fund_master.csv,sub_category,Large Cap,14
+01_fund_master.csv,sub_category,Mid Cap,7
+01_fund_master.csv,sub_category,Small Cap,6
+01_fund_master.csv,sub_category,Liquid,3
+01_fund_master.csv,sub_category,Gilt,2
+01_fund_master.csv,sub_category,Flexi Cap,2
+01_fund_master.csv,sub_category,Short Duration,1
+01_fund_master.csv,sub_category,Value,1
+01_fund_master.csv,sub_category,Index/ETF,1
+01_fund_master.csv,sub_category,Index,1
+01_fund_master.csv,sub_category,Large & Mid Cap,1
+01_fund_master.csv,sub_category,ELSS,1
+01_fund_master.csv,risk_category,Moderate,16
+01_fund_master.csv,risk_category,High,8
+01_fund_master.csv,risk_category,Very High,6
+01_fund_master.csv,risk_category,Low,6
+01_fund_master.csv,risk_category,Moderately High,4
+03_aum_by_fund_house.csv,fund_house,SBI Mutual Fund,9
+03_aum_by_fund_house.csv,fund_house,ICICI Prudential MF,9
+03_aum_by_fund_house.csv,fund_house,HDFC Mutual Fund,9
+03_aum_by_fund_house.csv,fund_house,Nippon India MF,9
+03_aum_by_fund_house.csv,fund_house,Kotak Mahindra MF,9
+03_aum_by_fund_house.csv,fund_house,Aditya Birla Sun Life MF,9
+03_aum_by_fund_house.csv,fund_house,Axis Mutual Fund,9
+03_aum_by_fund_house.csv,fund_house,UTI Mutual Fund,9
+03_aum_by_fund_house.csv,fund_house,Mirae Asset MF,9
+03_aum_by_fund_house.csv,fund_house,DSP Mutual Fund,9
+05_category_inflows.csv,category,Large Cap,12
+05_category_inflows.csv,category,Mid Cap,12
+05_category_inflows.csv,category,Small Cap,12
+05_category_inflows.csv,category,Flexi Cap,12
+05_category_inflows.csv,category,Large & Mid Cap,12
+05_category_inflows.csv,category,ELSS,12
+05_category_inflows.csv,category,Value/Contra,12
+05_category_inflows.csv,category,Sectoral/Thematic,12
+05_category_inflows.csv,category,Liquid,12
+05_category_inflows.csv,category,Short Duration,12
+05_category_inflows.csv,category,Gilt,12
+05_category_inflows.csv,category,Hybrid,12
+07_scheme_performance.csv,fund_house,SBI Mutual Fund,5
+07_scheme_performance.csv,fund_house,HDFC Mutual Fund,5
+07_scheme_performance.csv,fund_house,ICICI Prudential MF,5
+07_scheme_performance.csv,fund_house,Nippon India MF,5
+07_scheme_performance.csv,fund_house,Kotak Mahindra MF,4
+07_scheme_performance.csv,fund_house,Axis Mutual Fund,4
+07_scheme_performance.csv,fund_house,Aditya Birla Sun Life MF,3
+07_scheme_performance.csv,fund_house,UTI Mutual Fund,3
+07_scheme_performance.csv,fund_house,Mirae Asset MF,3
+07_scheme_performance.csv,fund_house,DSP Mutual Fund,3
+07_scheme_performance.csv,category,Large Cap,14
+07_scheme_performance.csv,category,Mid Cap,7
+07_scheme_performance.csv,category,Small Cap,6
+07_scheme_performance.csv,category,Liquid,3
+07_scheme_performance.csv,category,Gilt,2
+07_scheme_performance.csv,category,Flexi Cap,2
+07_scheme_performance.csv,category,Short Duration,1
+07_scheme_performance.csv,category,Value,1
+07_scheme_performance.csv,category,Index/ETF,1
+07_scheme_performance.csv,category,Index,1
+07_scheme_performance.csv,category,Large & Mid Cap,1
+07_scheme_performance.csv,category,ELSS,1
+07_scheme_performance.csv,risk_grade,Moderate,16
+07_scheme_performance.csv,risk_grade,High,8
+07_scheme_performance.csv,risk_grade,Very High,6
+07_scheme_performance.csv,risk_grade,Low,6
+07_scheme_performance.csv,risk_grade,Moderately High,4
+08_investor_transactions.csv,transaction_type,SIP,19716
+08_investor_transactions.csv,transaction_type,Lumpsum,8095
+08_investor_transactions.csv,transaction_type,Redemption,4967
+08_investor_transactions.csv,kyc_status,Verified,30146
+08_investor_transactions.csv,kyc_status,Pending,2632
+08_investor_transactions.csv,state,Punjab,2965
+08_investor_transactions.csv,state,Madhya Pradesh,2931
+08_investor_transactions.csv,state,Tamil Nadu,2806
+08_investor_transactions.csv,state,Gujarat,2780
+08_investor_transactions.csv,state,West Bengal,2748
+08_investor_transactions.csv,state,Haryana,2736
+08_investor_transactions.csv,state,Telangana,2718
+08_investor_transactions.csv,state,Uttar Pradesh,2695
+08_investor_transactions.csv,state,Delhi,2677
+08_investor_transactions.csv,state,Karnataka,2621
+08_investor_transactions.csv,state,Rajasthan,2577
+08_investor_transactions.csv,state,Maharashtra,2524

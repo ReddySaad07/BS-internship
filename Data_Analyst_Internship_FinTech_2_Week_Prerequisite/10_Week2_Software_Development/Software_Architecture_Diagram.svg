@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="#ffffff"/>
+<style>
+.box{fill:#eef4fb;stroke:#1f4e78;stroke-width:2;rx:14}
+.t{font-family:Arial,sans-serif;fill:#17365d}
+.title{font-size:28px;font-weight:bold}
+.label{font-size:20px;font-weight:bold}
+.small{font-size:15px}
+.arrow{stroke:#444;stroke-width:3;marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 z" fill="#444"/></marker></defs>
+<text x="600" y="45" text-anchor="middle" class="t title">Web Application → Database → Analytics Flow</text>
+<rect x="55" y="100" width="200" height="110" class="box"/>
+<text x="155" y="140" text-anchor="middle" class="t label">User / Frontend</text>
+<text x="155" y="170" text-anchor="middle" class="t small">Form, click, search</text>
+<text x="155" y="192" text-anchor="middle" class="t small">Dashboard request</text>
+<rect x="340" y="100" width="200" height="110" class="box"/>
+<text x="440" y="140" text-anchor="middle" class="t label">Backend / API</text>
+<text x="440" y="170" text-anchor="middle" class="t small">Validation</text>
+<text x="440" y="192" text-anchor="middle" class="t small">Business logic</text>
+<rect x="625" y="100" width="200" height="110" class="box"/>
+<text x="725" y="140" text-anchor="middle" class="t label">Database</text>
+<text x="725" y="170" text-anchor="middle" class="t small">Structured records</text>
+<text x="725" y="192" text-anchor="middle" class="t small">Transactions / master data</text>
+<rect x="910" y="100" width="230" height="110" class="box"/>
+<text x="1025" y="140" text-anchor="middle" class="t label">Analytics Layer</text>
+<text x="1025" y="170" text-anchor="middle" class="t small">ETL / Python / SQL</text>
+<text x="1025" y="192" text-anchor="middle" class="t small">Metrics & models</text>
+<line x1="255" y1="155" x2="340" y2="155" class="arrow"/>
+<line x1="540" y1="155" x2="625" y2="155" class="arrow"/>
+<line x1="825" y1="155" x2="910" y2="155" class="arrow"/>
+<rect x="475" y="340" width="250" height="110" class="box"/>
+<text x="600" y="380" text-anchor="middle" class="t label">Power BI / Dashboard</text>
+<text x="600" y="410" text-anchor="middle" class="t small">KPIs, charts, filters</text>
+<line x1="1025" y1="210" x2="725" y2="340" class="arrow"/>
+<line x1="600" y1="450" x2="600" y2="510" class="arrow"/>
+<rect x="455" y="510" width="290" height="70" class="box"/>
+<text x="600" y="540" text-anchor="middle" class="t label">User-facing insight</text>
+<text x="600" y="562" text-anchor="middle" class="t small">Business decision / report</text>
+</svg>

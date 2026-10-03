@@ -1,0 +1,5 @@
+file,amfi_column,unique_codes,matching_codes,not_in_fund_master,match_rate_pct
+02_nav_history.csv,amfi_code,40,40,0,100.0
+07_scheme_performance.csv,amfi_code,40,40,0,100.0
+08_investor_transactions.csv,amfi_code,40,40,0,100.0
+09_portfolio_holdings.csv,amfi_code,34,34,0,100.0

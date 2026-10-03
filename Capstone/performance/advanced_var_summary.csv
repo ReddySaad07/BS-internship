@@ -1,0 +1,3 @@
+method,confidence,var_loss_pct
+Historical VaR,0.95,-6.138000000000001
+Parametric VaR,0.95,-6.344141351391598

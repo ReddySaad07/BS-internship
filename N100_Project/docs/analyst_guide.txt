@@ -1,0 +1,141 @@
+﻿N100 FINANCIAL INTELLIGENCE PLATFORM
+ANALYST GUIDE
+
+1. PURPOSE
+
+The N100 Financial Intelligence Platform loads financial datasets,
+normalises the data, calculates financial KPIs, creates screening
+outputs, performs peer analysis, produces reports, and exposes
+results through a dashboard and API.
+
+2. DATA
+
+The raw datasets are stored in:
+
+data/raw/
+
+The pipeline does not invent missing source records.
+
+3. ETL
+
+Run:
+
+python -m src.etl.run_etl
+
+This creates the SQLite database:
+
+db/nifty100.db
+
+It also creates load and validation outputs.
+
+4. FINANCIAL RATIOS
+
+Run:
+
+python -m src.analytics.build_ratios
+
+This calculates margins, ROE, ROA, ROCE, leverage, debt/equity,
+interest coverage, net debt, asset turnover, CAGR and cash-flow
+metrics.
+
+5. SCREENER
+
+Run:
+
+python scripts/run_screener.py
+
+The screener produces:
+
+output/screener_output.xlsx
+
+6. PEER ANALYSIS
+
+Run:
+
+python scripts/run_peers.py
+
+Peer percentile results are stored in:
+
+output/peer_percentiles.csv
+
+7. NLP
+
+Run:
+
+python scripts/run_nlp.py
+
+The parser processes the available pros/cons source material.
+
+8. CLUSTERING
+
+Run:
+
+python scripts/run_clustering.py
+
+The clustering output is:
+
+output/cluster_labels.csv
+
+9. VALUATION
+
+Run:
+
+python scripts/run_valuation.py
+
+Valuation outputs are stored in:
+
+output/valuation_summary.xlsx
+output/valuation_flags.csv
+
+10. REPORTS
+
+Run:
+
+python -m src.reports.generate_reports
+
+Company tearsheets are written to:
+
+reports/tearsheets/
+
+11. DASHBOARD
+
+Run:
+
+streamlit run src/dashboard/app.py
+
+12. API
+
+Run:
+
+uvicorn src.api.main:app --host 127.0.0.1 --port 8000
+
+13. TESTING
+
+Run:
+
+pytest tests/ -v
+
+14. VERIFICATION
+
+Run:
+
+python scripts/verify_pipeline.py
+
+15. IMPORTANT DATA RULES
+
+Company IDs are trimmed and uppercased.
+
+Financial amounts are treated according to the source project's
+INR Crore convention.
+
+CAGR calculations explicitly handle zero and negative bases.
+
+Zero interest expense is represented as a Debt Free condition.
+
+Simulated market data, where applicable, must be clearly labelled
+as simulated rather than presented as verified market data.
+
+16. PRINCIPLE
+
+All outputs should be traceable to source data or to transparent
+calculations performed by the project.
